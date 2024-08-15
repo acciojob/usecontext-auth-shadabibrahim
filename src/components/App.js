@@ -5,6 +5,7 @@ import Auth from "./Auth";
 
 const App = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
+  
   return (
     <div>
       {/* Do not remove the main div */}
